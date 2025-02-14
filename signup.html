@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Signup</h2>
+        <form id="signupForm">
+            <input type="text" id="signupName" placeholder="Full Name" required>
+            <input type="email" id="signupEmail" placeholder="Email" required>
+            <input type="number" id="signupAge" placeholder="Phone_Number" required>
+            <input type="text" id="signupGender" placeholder="Gender" required>
+            <input type="text" id="signupEducation" placeholder="Profession" required>
+            <button type="submit">Signup</button>
+        </form>
+
+        <p>Already have an account? <a href="login.html">Go to Login</a></p>
+    </div>
+
+    <script>
+        document.getElementById("signupForm").addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const user = {
+                name: document.getElementById("signupName").value,
+                email: document.getElementById("signupEmail").value,
+                age: document.getElementById("signupAge").value,
+                gender: document.getElementById("signupGender").value,
+                education: document.getElementById("signupEducation").value
+            };
+
+            try {
+                const response = await fetch("http://localhost:3000/api/signup", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(user)
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    localStorage.setItem("email", user.email);
+                    window.location.href = "index1.html";  // ✅ Correct redirection
+                } else {
+                    alert(data.message);
+                }
+            } catch (error) {
+                console.error("Error:", error);
+            }
+        });
+    </script>
+</body>
+</html>

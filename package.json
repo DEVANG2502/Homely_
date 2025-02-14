@@ -1,0 +1,33 @@
+{
+  "name": "homeverse",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "firebase-auth.js",
+  "scripts": {
+    "devStart": " nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEVANG2502/Homely.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DEVANG2502/Homely/issues"
+  },
+  "homepage": "https://github.com/DEVANG2502/Homely#readme",
+  "devDependencies": {
+    "n": "^10.1.0",
+    "nodemon": "^3.1.9"
+  }
+}

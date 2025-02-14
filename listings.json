@@ -1,0 +1,60 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "type": "Flat",
+      "price": "23",
+      "location": "Mumbai",
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "size": "322",
+      "description": "Nice",
+      "agent": "DD",
+      "images": [
+        "/uploads/1739524351727.png"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Flat",
+      "price": "23",
+      "location": "Mumbai",
+      "bedrooms": "3",
+      "bathrooms": "2",
+      "size": "12",
+      "description": "23fwfr",
+      "agent": "DD",
+      "images": [
+        "1739525891253.png"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Flat",
+      "price": "23",
+      "location": "Mumbai",
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "size": "1323",
+      "description": "23sffsfsf",
+      "agent": "32wfsf",
+      "images": [
+        "1739526335788.png"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Bunglow",
+      "price": "200000000",
+      "location": "Lonavala",
+      "bedrooms": "3",
+      "bathrooms": "4",
+      "size": "3211",
+      "description": "VERY Beautiful Property",
+      "agent": "Devnagggg!",
+      "images": [
+        "1739526612228.png"
+      ]
+    }
+  ]
+}

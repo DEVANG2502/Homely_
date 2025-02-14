@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Divya ",
+      "email": "dev@gmail.com",
+      "age": "23",
+      "gender": "Female",
+      "education": "BDS"
+    },
+    {
+      "id": 2,
+      "name": "devanf",
+      "email": "d@32",
+      "age": "23",
+      "gender": "Female",
+      "education": "BDS"
+    },
+    {
+      "id": 3,
+      "name": "dev",
+      "email": "dev1@gmail.com",
+      "age": "939483483",
+      "gender": "23",
+      "education": "Lawer"
+    },
+    {
+      "id": 4,
+      "name": "Divya ",
+      "email": "dev@gmail.com6",
+      "age": "565",
+      "gender": "male",
+      "education": "4"
+    }
+  ],
+  "loggedInUsers": [
+    {
+      "id": 2,
+      "name": "devanf",
+      "email": "d@32",
+      "age": "23",
+      "gender": "Female",
+      "education": "BDS"
+    }
+  ]
+}
